@@ -47,7 +47,6 @@
 		B6F805BC2B20A23300225347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F805BF2B20A23300225347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F805C12B20A23300225347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6F805C72B20A24600225347 /* Answers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Answers.md; sourceTree = "<group>"; };
 		B6F805C82B20A25400225347 /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		B6F805CB2B20A84C00225347 /* DocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +100,6 @@
 				B62073862B20C5D1000C8C09 /* img10.jpg */,
 				B6F805BE2B20A23300225347 /* LaunchScreen.storyboard */,
 				B6F805C12B20A23300225347 /* Info.plist */,
-				B6F805C72B20A24600225347 /* Answers.md */,
 				B6F805C82B20A25400225347 /* Notes.md */,
 			);
 			path = "File Explorer";

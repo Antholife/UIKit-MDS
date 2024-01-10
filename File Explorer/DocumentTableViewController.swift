@@ -46,14 +46,11 @@ extension DocumentTableViewController: UIDocumentPickerDelegate {
     }
     
     func copyFileToDocumentsDirectory(fromUrl url: URL) {
-        // On récupère le dossier de l'application, dossier où nous avons le droit d'écrire nos fichiers
         let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         
-        // Nous créons une URL de destination pour le fichier
         let destinationUrl = documentsDirectory.appendingPathComponent(url.lastPathComponent)
         
         do {
-            // Puis nous copions le fichier depuis l'URL source vers l'URL de destination
             try FileManager.default.copyItem(at: url, to: destinationUrl)
         } catch {
             print(error)
@@ -72,10 +69,10 @@ extension DocumentTableViewController: UIDocumentPickerDelegate {
                                                  type: "text/plain"))
                 tableView.reloadData()
             } else {
-                print("Aucun fichier dans le répertoire")
+                print("No files in directory")
             }
         } catch {
-            print("Erreur lors de la récupération des fichiers : \(error)")
+            print("Error recovering files : \(error)")
         }
     }
 }
@@ -269,7 +266,7 @@ class DocumentTableViewController: UITableViewController, QLPreviewControllerDat
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
         guard let url = selectedPreviewURL else {
-                    fatalError("Aucune URL sélectionnée")
+                    fatalError("No URL selected")
                 }
         return url as QLPreviewItem
     }
