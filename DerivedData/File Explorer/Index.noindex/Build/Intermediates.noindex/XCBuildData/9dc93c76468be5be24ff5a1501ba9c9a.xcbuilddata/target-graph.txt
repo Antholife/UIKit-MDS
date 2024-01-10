@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'File Explorer' in project 'File Explorer' (no dependencies)
+Target 'File Explorer' in project 'File Explorer' (no dependencies)

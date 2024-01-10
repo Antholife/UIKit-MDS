@@ -1,0 +1,61 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "74a21433d59d88609c1ff173d69508f84ec0f7e2762348b58ec31a996f713370"
+    }
+  ],
+  "containerPath" : "/Users/antholife/Dev/File Explorer/File Explorer.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos17.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/antholife/Dev/File Explorer/DerivedData/File Explorer/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/antholife/Dev/File Explorer/DerivedData/File Explorer/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/antholife/Dev/File Explorer/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/antholife/Dev/File Explorer/DerivedData/File Explorer/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/antholife/Dev/File Explorer/DerivedData/File Explorer/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/antholife/Dev/File Explorer/DerivedData/File Explorer/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/antholife/Dev/File Explorer/DerivedData/File Explorer/Build/Products",
+      "pchPath" : "/Users/antholife/Dev/File Explorer/DerivedData/File Explorer/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
